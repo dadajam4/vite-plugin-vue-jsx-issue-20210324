@@ -1,13 +1,15 @@
 # vite-plugin-vue-jsx-issue-20210324
 For issue reproduction
 
+[https://github.com/vitejs/vite/issues/2662](https://github.com/vitejs/vite/issues/2662)
+
 ## Reproducibility procedure
 1. `npm install`
 2. `npm start`
 3. Open [http://localhost:3000](http://localhost:3000)
 4. Check the following log
 
-```console
+```node
 10:23:28 [vite] Error when evaluating SSR module /App.tsx:
 ReferenceError: __default__ is not defined
     at eval (/App.tsx:20:41)
