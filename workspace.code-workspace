@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"extensions.showRecommendationsOnlyOnDemand": false,
+		"typescript.tsdk": "node_modules/typescript/lib",
+		"vetur.format.defaultFormatter.html": "prettier",
+		"typescript.format.enable": false,
+		"javascript.format.enable": false
+	}
+}
